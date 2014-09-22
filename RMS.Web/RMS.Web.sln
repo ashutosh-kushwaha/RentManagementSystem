@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Web", "RMS.Web\RMS.Web.csproj", "{F835F8E1-6AC1-4AF1-9937-5A35969C2834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.Business", "RMS.Business\RMS.Business.csproj", "{5EBDB847-D4C0-4E58-9C41-D9207227962F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMS.DataAccess", "RMS.DataAccess\RMS.DataAccess.csproj", "{B416A5C8-191B-428F-9407-515D130FD8AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F835F8E1-6AC1-4AF1-9937-5A35969C2834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F835F8E1-6AC1-4AF1-9937-5A35969C2834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F835F8E1-6AC1-4AF1-9937-5A35969C2834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F835F8E1-6AC1-4AF1-9937-5A35969C2834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBDB847-D4C0-4E58-9C41-D9207227962F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBDB847-D4C0-4E58-9C41-D9207227962F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBDB847-D4C0-4E58-9C41-D9207227962F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBDB847-D4C0-4E58-9C41-D9207227962F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B416A5C8-191B-428F-9407-515D130FD8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B416A5C8-191B-428F-9407-515D130FD8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B416A5C8-191B-428F-9407-515D130FD8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B416A5C8-191B-428F-9407-515D130FD8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

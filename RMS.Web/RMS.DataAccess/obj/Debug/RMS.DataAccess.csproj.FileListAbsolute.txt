@@ -1,0 +1,5 @@
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Debug\RMS.DataAccess.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Debug\RMS.DataAccess.pdb
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.csprojResolveAssemblyReference.cache
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.pdb
