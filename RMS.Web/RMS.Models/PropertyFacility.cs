@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    class PropertyFacility:Property
+    public class PropertyFacility : Property
     {
         public int PropertyFacilityId { get; set; }
         public int Parking{ get; set; }

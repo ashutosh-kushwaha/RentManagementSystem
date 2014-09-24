@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    class Role
+    public class Role
     {
         public int RoleId { get; set; }
         public string FirstName { get; set; }

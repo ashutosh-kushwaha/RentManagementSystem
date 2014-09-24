@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    class Property
+    public class Property
     {
         public int PropertyId { get; set; }
         public string location { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    class BillType
+    public class BillType
     {
         public int BillTypeId { get; set; }
         public int Water { get; set; }
