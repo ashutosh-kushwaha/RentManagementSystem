@@ -14,10 +14,6 @@ namespace RMS.Models
         public int SecurityGuard { get; set; }
         public int Gym { get; set; }
         public int SwimmingPool { get; set; }
-        public int CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public int ModifiedDate { get; set; }
-        public DateTime ModifiedBy { get; set; }
-    
+      
     }
 }
