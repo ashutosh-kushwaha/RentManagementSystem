@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    class Renter:Person
+   public class Renter:Person
     {
         public int RenterId { get; set; }
         public string PAP { get; set; }
@@ -15,6 +15,6 @@ namespace RMS.Models
         public DateTime CreatedDate { get; set; }
         public int ModifiedDate { get; set; }
         public DateTime ModifiedBy { get; set; }
-    }
+    
     }
 }

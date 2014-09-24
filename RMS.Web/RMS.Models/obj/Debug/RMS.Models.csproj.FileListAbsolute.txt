@@ -1,0 +1,1 @@
+D:\RentManagementSystem\RMS.Web\RMS.Models\obj\Debug\RMS.Models.csprojResolveAssemblyReference.cache
