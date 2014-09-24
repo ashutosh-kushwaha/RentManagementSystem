@@ -5,3 +5,10 @@ C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\bin\Debug\RMS.DataAc
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\obj\Debug\RMS.Business.csprojResolveAssemblyReference.cache
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\obj\Debug\RMS.Business.dll
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\obj\Debug\RMS.Business.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Business\bin\Debug\RMS.Business.dll
+D:\RentManagementSystem\RMS.Web\RMS.Business\bin\Debug\RMS.Business.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Business\bin\Debug\RMS.DataAccess.dll
+D:\RentManagementSystem\RMS.Web\RMS.Business\bin\Debug\RMS.DataAccess.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Business\obj\Debug\RMS.Business.csprojResolveAssemblyReference.cache
+D:\RentManagementSystem\RMS.Web\RMS.Business\obj\Debug\RMS.Business.dll
+D:\RentManagementSystem\RMS.Web\RMS.Business\obj\Debug\RMS.Business.pdb

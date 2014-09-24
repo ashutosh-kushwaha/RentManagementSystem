@@ -3,3 +3,8 @@ C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Debug\RMS.Data
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.csprojResolveAssemblyReference.cache
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.dll
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.pdb
+D:\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Debug\RMS.DataAccess.dll
+D:\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Debug\RMS.DataAccess.pdb
+D:\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.csprojResolveAssemblyReference.cache
+D:\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.dll
+D:\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Debug\RMS.DataAccess.pdb
