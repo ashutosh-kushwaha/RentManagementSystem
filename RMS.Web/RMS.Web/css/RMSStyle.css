@@ -13,14 +13,14 @@ color:#636363;
 }
 a, a:visited{
 text-decoration:none;
-color:#636363;
+color:#C9302C;
 }
 a:hover{
 text-decoration:none;
 color:#4CAA00;
 }
 h1{
-font-size:20px;
+font-size:15px;
 margin:20px 30px;
 }
 #form{ 
@@ -74,25 +74,27 @@ font: 11px 'Open Sans', Helvetica, Arial, sans-serif;
 margin-left:180px;
 }
 .password-reset a:link,.password-reset a:visited {
-color:#4CAA00;
+color:#C9302C;
 } 
 .password-reset a:hover{ 
-color:#4CAA00;
+color:#C9302C;
 text-decoration:underline;
 }
 .cookie{
 position:absolute;
-top:220px;
+top:207px;
+    left: 27px;
 }
 #smart-login-actions{
 position:absolute;
-right:20px;
+right:-2px;
+    top: 244px;
 }
 #smart-login-actions input{
 width:70px;
 height:32px;
 padding:auto;
-background-color:#4CAA00;
+background-color:#C9302C;
 border:none;
 opacity: 0.8;
 transition: opacity 0.2s;
@@ -103,7 +105,7 @@ transition: opacity 0.2s;
 -webkit-transition: opacity 0.2s;
 font:12px verdana;
 cursor: pointer;
-color:#fff;
+color:white;
 border:none;
 -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -123,7 +125,7 @@ opacity:1;
 width:100%;
 background:#000;
 padding:30px 0;
-color:#c5c5c5;
+color:#C9302C;
 border-top:2px solid #191919;
 position:absolute;
 bottom:0px;

@@ -3,4 +3,3 @@ C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\bin\Debug\RMS.Models.d
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\bin\Debug\RMS.Models.pdb
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\obj\Debug\RMS.Models.dll
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\obj\Debug\RMS.Models.pdb
-C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\obj\Debug\RMS.Models.csprojResolveAssemblyReference.cache
