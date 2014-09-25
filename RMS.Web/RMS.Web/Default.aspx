@@ -11,6 +11,8 @@
     <!--code for fonts-->
     <link href="http://fonts.googleapis.com/css?family=Questrial" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css" />
+
+        
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/Custome.css" rel="stylesheet" />
 </head>
