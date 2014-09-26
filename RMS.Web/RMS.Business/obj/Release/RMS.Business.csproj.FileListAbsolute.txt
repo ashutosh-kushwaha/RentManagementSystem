@@ -1,0 +1,7 @@
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\bin\Release\RMS.Business.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\bin\Release\RMS.Business.pdb
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\bin\Release\RMS.DataAccess.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\bin\Release\RMS.DataAccess.pdb
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\obj\Release\RMS.Business.csprojResolveAssemblyReference.cache
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\obj\Release\RMS.Business.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Business\obj\Release\RMS.Business.pdb

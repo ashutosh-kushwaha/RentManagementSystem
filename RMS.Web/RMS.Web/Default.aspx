@@ -33,12 +33,13 @@
             <section>
                 <span class="defaultSize">RMS Login </span>
             </section>
-            <form name="login-form" id="smart-login" method="post" action="#">
-               <fieldset id="smart-login-fields">
+            <form id="smartlogin" runat="server">
+               <fieldset id="smart-login-fields" >
                     <input id="username" type="text" placeholder="Username" required></input>
                     <br /><br />
                    
-                    <input id="password" type="password" placeholder="Password" required>
+                    <%--<input runat="server" id="password"  placeholder="Password" required>--%>
+                   <asp:TextBox id="password"  runat="server" required />
               </fieldset>
                 <span class="password-reset"><a href="#">Forgot Your Password?</a></span>
                 <span class="cookie">
@@ -47,10 +48,11 @@
                   
            
          
-               
-                  <input type="reset"  id="Reset" value="Reset"  class="btn btn-danger" >
-                    <input type="submit" id="login" value="Log in" class="btn btn-danger"  >
-               
+            <%--   <asp:Label ID="reset" runat ="server" Text="Reset" Class="btn btn-danger"></asp:Label>--%>
+                    <asp:Button ID="Reset" runat="server" class="btn btn-danger" Text="Reset" OnClick="Reset_Click" />
+                 
+                    <asp:Button  id="login" value="Log in" class="btn btn-danger" runat="server" OnClick="login_Click1" />
+                   
                 </fieldset>
                 <br />
             </form>

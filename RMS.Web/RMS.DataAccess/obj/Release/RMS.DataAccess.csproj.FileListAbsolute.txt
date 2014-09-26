@@ -1,0 +1,4 @@
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Release\RMS.DataAccess.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Release\RMS.DataAccess.pdb
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Release\RMS.DataAccess.dll
+C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Release\RMS.DataAccess.pdb
