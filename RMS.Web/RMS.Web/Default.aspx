@@ -35,11 +35,11 @@
             </section>
             <form id="smartlogin" runat="server">
                <fieldset id="smart-login-fields" ><br />
-                    <input id="username" type="text"  placeholder="Username" required></input>
-                    <br /><br />
-                   
-                    <%--<input runat="server" id="password"  placeholder="Password" required>--%>
-                   <asp:TextBox id="password"  runat="server" required />
+                     <br />
+                    <asp:TextBox ID="username" placeholder="Username" required="" runat="server"></asp:TextBox>
+                    <br />
+                    <br />
+                    <asp:TextBox ID="password" placeholder="Password" required="" runat="server"></asp:TextBox>
               </fieldset>
                 <span class="password-reset"><a href="#">Forgot Your Password?</a></span>
                 <span class="cookie">
@@ -51,10 +51,11 @@
             <%--   <asp:Label ID="reset" runat ="server" Text="Reset" Class="btn btn-danger"></asp:Label>--%>
                     <asp:Button ID="Reset" runat="server" class="btn btn-danger" Text="Reset" OnClick="Reset_Click" />
                  
-                    <asp:Button  id="login" Text="Log in" class="btn btn-danger" runat="server" OnClick="login_Click1" />
+                    <asp:Button  id="login" Text="Log in" class="btn btn-danger" runat="server" OnClick="login_Click" />
                    
                 </fieldset>
                 <br />
+                <asp:Label ID="lblLoginMessage" runat="server" Text=""></asp:Label>
             </form>
         </section>
     </section>

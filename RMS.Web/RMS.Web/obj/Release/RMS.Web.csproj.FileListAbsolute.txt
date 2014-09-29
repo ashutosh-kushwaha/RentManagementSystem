@@ -4,3 +4,12 @@ C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Business.dll
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Business.pdb
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.dll
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Web.dll
+D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Web.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Business.dll
+D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Business.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.dll
+D:\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.DataAccess.dll
+D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.DataAccess.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.csprojResolveAssemblyReference.cache

@@ -2,3 +2,7 @@ C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.pdb
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.dll
 C:\Shilpa Project\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.dll
+D:\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.pdb
+D:\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.dll
+D:\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.pdb

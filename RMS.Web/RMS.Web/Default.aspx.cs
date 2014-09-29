@@ -14,13 +14,17 @@ namespace RMS.Web
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            RMSLogin Loginobj = new RMSLogin();
-            Loginobj.ValidateLogin("shilpa", "shilpa123");
+          
         }
 
         protected void login_Click(object sender, EventArgs e)
         {
-
+            RMSLogin Loginobj = new RMSLogin();
+           bool status= Loginobj.ValidateLogin(username.Text, password.Text);
+           if (status == true)
+               Server.TransferRequest("");
+           else
+               lblLoginMessage.Text = "Login failed, please try again!";
 
         }
 
