@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="RMS.DataAccess">
+      <HintPath>..\RMS.DataAccess\bin\Debug\RMS.DataAccess.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,12 +44,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RMSLogin.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RMS.DataAccess\RMS.DataAccess.csproj">
-      <Project>{b416a5c8-191b-428f-9407-515d130fd8af}</Project>
-      <Name>RMS.DataAccess</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

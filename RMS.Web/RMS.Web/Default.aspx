@@ -34,8 +34,8 @@
                 <span class="defaultSize">RMS Login </span>
             </section>
             <form id="smartlogin" runat="server">
-               <fieldset id="smart-login-fields" >
-                    <input id="username" type="text" placeholder="Username" required></input>
+               <fieldset id="smart-login-fields" ><br />
+                    <input id="username" type="text"  placeholder="Username" required></input>
                     <br /><br />
                    
                     <%--<input runat="server" id="password"  placeholder="Password" required>--%>
@@ -43,7 +43,7 @@
               </fieldset>
                 <span class="password-reset"><a href="#">Forgot Your Password?</a></span>
                 <span class="cookie">
-                    <input type="checkbox" value="true">keep me login</span><br />
+                    <input type="checkbox" value="true"/>keep me login</span><br />
                 <fieldset id="smart-login-actions">
                   
            
@@ -51,7 +51,7 @@
             <%--   <asp:Label ID="reset" runat ="server" Text="Reset" Class="btn btn-danger"></asp:Label>--%>
                     <asp:Button ID="Reset" runat="server" class="btn btn-danger" Text="Reset" OnClick="Reset_Click" />
                  
-                    <asp:Button  id="login" value="Log in" class="btn btn-danger" runat="server" OnClick="login_Click1" />
+                    <asp:Button  id="login" Text="Log in" class="btn btn-danger" runat="server" OnClick="login_Click1" />
                    
                 </fieldset>
                 <br />
