@@ -97,9 +97,12 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                 <div class="fill" style="background-image:url('img src=../images/RMS%20slide%20show1.jpg' );"></div>
+
+
+              <%--  <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>--%>
                 <div class="carousel-caption">
-                    <h1>Modern Business - A Bootstrap 3 Template</h1>
+                    <h1>You are 1 click away from your property</h1>
                 </div>
             </div>
             <div class="item">

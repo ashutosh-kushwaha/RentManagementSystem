@@ -69,6 +69,9 @@
     <Content Include="images\bg.png" />
     <Content Include="images\body-bg.jpg" />
     <Content Include="images\login-sprite.png" />
+    <Content Include="images\RMS slide show1.jpg" />
+    <Content Include="images\RMS slide show2.jpg" />
+    <Content Include="images\RMS slide show3.jpg" />
     <Content Include="Pages\Welcome.aspx" />
     <Content Include="script\bootstrap.min.js" />
     <Content Include="script\jquery-1.10.2.js" />
