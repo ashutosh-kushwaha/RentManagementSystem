@@ -6,3 +6,7 @@ D:\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.dll
 D:\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.pdb
 D:\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.dll
 D:\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.pdb

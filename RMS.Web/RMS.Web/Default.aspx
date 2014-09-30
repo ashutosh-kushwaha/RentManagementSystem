@@ -31,14 +31,14 @@
             <br />
          
             <section>
-                <span class="defaultSize">RMS Login </span>
+                <span class="defaultSize">&nbsp;&nbsp;&nbsp;&nbspRMS Login </span>
             </section>
             <form id="smartlogin" runat="server">
                <fieldset id="smart-login-fields" ><br />
-                     <br />
-                    <asp:TextBox ID="username" placeholder="Username" required="" runat="server"></asp:TextBox>
-                    <br />
-                    <br />
+                     <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+                    <asp:TextBox ID="username" placeholder="Username" required="" runat="server"></asp:TextBox>                   <br />
+                    <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="password" placeholder="Password" required="" runat="server"></asp:TextBox>
               </fieldset>
                 <span class="password-reset"><a href="#">Forgot Your Password?</a></span>
