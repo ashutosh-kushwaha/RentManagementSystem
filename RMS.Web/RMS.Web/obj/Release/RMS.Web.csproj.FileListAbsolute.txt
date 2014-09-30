@@ -13,3 +13,12 @@ D:\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.pdb
 D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.DataAccess.dll
 D:\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.DataAccess.pdb
 D:\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Web.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Web.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Business.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.DataAccess.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Business.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.DataAccess.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.csprojResolveAssemblyReference.cache
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.pdb
