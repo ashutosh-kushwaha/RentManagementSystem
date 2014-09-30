@@ -22,7 +22,7 @@ namespace RMS.Web
             RMSLogin Loginobj = new RMSLogin();
            bool status= Loginobj.ValidateLogin(username.Text, password.Text);
            if (status == true)
-               Server.TransferRequest(" @./welcome.aspx   ");
+               Server.TransferRequest(@"./pages/welcome.aspx   ");
            else
                lblLoginMessage.Text = "Login failed, please try again!";
 

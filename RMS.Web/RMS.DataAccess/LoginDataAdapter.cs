@@ -11,18 +11,18 @@ namespace RMS.DataAccess
 {
     public class LoginDataAdapter
     {
-        public bool ValidateUser(String USER_NAME, String PASSWORD)
+        public bool ValidateUser(string username, string password)
         {
             SqlConnection con = null ;
             try
             {
 
                 con = new SqlConnection("server=.;database=RMS;integrated security=true");
-                SqlCommand com = new SqlCommand("select USER_NAME,PASSWORD from  RMS_User where user_name ='"+USER_NAME+" and password = '"+PASSWORD+"'", con);
+                SqlCommand com = new SqlCommand("select USER_NAME,PASSWORD from  RMS_USER where USER_NAME ='"+username+"' and PASSWORD = '"+password+"'",con);
                 con.Open();
-               int count= com.ExecuteNonQuery();
+               SqlDataReader dr=com.ExecuteReader();
 
-               if (count>0)
+               if (dr.HasRows)
                 {
 
                     return true;

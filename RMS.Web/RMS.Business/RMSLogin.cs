@@ -8,7 +8,7 @@ namespace RMS.Business
 {
     public class RMSLogin
     {
-        public Boolean ValidateLogin(String username, String password)
+        public Boolean ValidateLogin(string username, string password)
         {
             LoginDataAdapter loginDA = new LoginDataAdapter();
            return  loginDA.ValidateUser(username, password); 

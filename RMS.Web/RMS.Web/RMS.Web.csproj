@@ -60,6 +60,7 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\Custome.css" />
     <Content Include="css\iexplorer.css" />
+    <Content Include="css\modern-business.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\RMSStyle.css" />
     <Content Include="Default.aspx" />
@@ -70,6 +71,8 @@
     <Content Include="images\login-sprite.png" />
     <Content Include="Pages\Welcome.aspx" />
     <Content Include="script\bootstrap.min.js" />
+    <Content Include="script\jquery-1.10.2.js" />
+    <Content Include="script\modern-business.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

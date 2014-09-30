@@ -39,7 +39,7 @@
  
                     <asp:TextBox ID="username" placeholder="Username" required="" runat="server"></asp:TextBox>                   <br />
                     <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="password" placeholder="Password" required="" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="password" placeholder="Password" required="" runat="server" TextMode="Password"></asp:TextBox>
               </fieldset>
                 <span class="password-reset"><a href="#">Forgot Your Password?</a></span>
                 <span class="cookie">
