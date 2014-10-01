@@ -72,7 +72,7 @@
     <Content Include="images\login-sprite.png" />
     <Content Include="images\RMS slide show1.jpg" />
     <Content Include="images\RMS slideshow3.jpg" />
-    <Content Include="Pages\Welcome.aspx" />
+    <Content Include="Pages\welcome.aspx" />
     <Content Include="script\bootstrap.min.js" />
     <Content Include="script\jquery-1.10.2.js" />
     <Content Include="script\modern-business.js" />
@@ -86,12 +86,19 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Welcome.aspx.cs">
-      <DependentUpon>Welcome.aspx</DependentUpon>
+    <Compile Include="Pages\Masterpage.Master.cs">
+      <DependentUpon>Masterpage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Welcome.aspx.designer.cs">
-      <DependentUpon>Welcome.aspx</DependentUpon>
+    <Compile Include="Pages\Masterpage.Master.designer.cs">
+      <DependentUpon>Masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\welcome.aspx.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\welcome.aspx.designer.cs">
+      <DependentUpon>welcome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -100,6 +107,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="images\Thumbs.db" />
+    <Content Include="Pages\Masterpage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
