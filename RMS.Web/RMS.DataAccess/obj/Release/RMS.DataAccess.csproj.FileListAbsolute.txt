@@ -11,3 +11,4 @@ C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.D
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.DataAccess\bin\Release\RMS.DataAccess.pdb
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Release\RMS.DataAccess.dll
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Release\RMS.DataAccess.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.DataAccess\obj\Release\RMS.DataAccess.csprojResolveAssemblyReference.cache
