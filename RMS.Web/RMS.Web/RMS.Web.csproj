@@ -72,6 +72,8 @@
     <Content Include="images\login-sprite.png" />
     <Content Include="images\RMS slide show1.jpg" />
     <Content Include="images\RMS slideshow3.jpg" />
+    <Content Include="Pages\Owner.aspx" />
+    <Content Include="Pages\OwnerPopup.aspx" />
     <Content Include="Pages\welcome.aspx" />
     <Content Include="script\bootstrap.min.js" />
     <Content Include="script\jquery-1.10.2.js" />
@@ -92,6 +94,20 @@
     </Compile>
     <Compile Include="Pages\Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Owner.aspx.cs">
+      <DependentUpon>Owner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Owner.aspx.designer.cs">
+      <DependentUpon>Owner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\OwnerPopup.aspx.cs">
+      <DependentUpon>OwnerPopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\OwnerPopup.aspx.designer.cs">
+      <DependentUpon>OwnerPopup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\welcome.aspx.cs">
       <DependentUpon>welcome.aspx</DependentUpon>
