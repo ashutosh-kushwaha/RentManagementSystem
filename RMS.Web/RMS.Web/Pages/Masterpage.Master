@@ -75,7 +75,7 @@
                         <ul class="dropdown-menu">
                               
                                
-                                    <li><a href="Owner.aspx">Owner</a>
+                                    <li><a href="/Pages/Owner.aspx">Owner</a>
 
                                     </li>
                            

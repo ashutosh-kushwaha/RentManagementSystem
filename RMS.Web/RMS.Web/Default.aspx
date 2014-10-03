@@ -43,7 +43,8 @@
               </fieldset>
                 <span class="password-reset"><a href="#">Forgot Your Password?</a></span>
                 <span class="cookie">
-                    <input type="checkbox" value="true"/>keep me login</span><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" value="true"/>&nbsp;keep me login</span><br />
                 <fieldset id="smart-login-actions">
                   
            
