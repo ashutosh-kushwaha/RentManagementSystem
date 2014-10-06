@@ -100,7 +100,8 @@
                 <div class="col-lg-4 col-md-4">
                     <h3><i class="fa fa-folder-open"></i> Renter/Owner Features</h3>
                   
-                                <li>Create/manage his profile on the site.</li>
+                
+                <li>Create/manage his profile on the site.</li>
   <li>Registered user can edit their account details at any time</li> 
   <li>Registered user can view their order history</li>
   <li>Register on the site for booking purpose only.</li>
@@ -115,7 +116,13 @@
   <li>Create bookmark of the page.</li>
   <li>Reviews/ratings on the property.</li>
   <li>Google map integration.</li>
-                                                </div>                </div>            </div>
+
+                
+                
+                </div>
+                </div>
+            </div>
+
         <!-- /.container -->
 
     </div>
