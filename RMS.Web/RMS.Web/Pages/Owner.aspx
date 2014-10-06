@@ -4,12 +4,12 @@
 
 
 
-<<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
 Create Property Detail
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="Div1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -46,7 +46,7 @@ Create Property Detail
     <label for="Personid" > Area:</label>
           </td>
         <td>
-          <div style='padding-left:64px;'>
+          <div style='padding-left:92px;'>
       <input type="text"  id="Text3" placeholder="Area">
     </div>
           </td>
@@ -63,7 +63,7 @@ Create Property Detail
     <label for="Property_id">Building_Name:</label>
           </td>
         <td>
-          <div  style='padding-left:68px;'>
+          <div  style='padding-left:10px;'>
       <input type="text" id="Text4" placeholder="Building_Name">
     </div>
           </td>
@@ -98,7 +98,7 @@ Create Property Detail
     <label for="Createddate">PinNo:</label>
           </td>
         <td>
-          <div style='padding-left:94px;'>
+          <div style='padding-left:80px;'>
       <input type="text"  id="Text6" placeholder="PinNo">
     </div>
           </td>
@@ -113,10 +113,14 @@ Create Property Detail
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
+          
+
       </div>
     </div>
   </div>
+
 </div>
+</form>
 
 <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 Create Owner Detail
@@ -282,6 +286,7 @@ Create Owner Detail
     </div>
   </div>
 </div>
+    </form>
 
 
      
