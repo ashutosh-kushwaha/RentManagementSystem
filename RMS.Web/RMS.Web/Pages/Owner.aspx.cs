@@ -13,5 +13,21 @@ namespace RMS.Web.Pages
         {
 
         }
+
+        protected void Property_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void SaveProperty_Click(object sender, EventArgs e)
+        {
+            int test123 = 0;
+
+        }
+
+        protected void ShowProperty_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

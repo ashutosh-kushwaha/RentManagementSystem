@@ -10,4 +10,3 @@ C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.M
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\bin\Release\RMS.Models.pdb
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.dll
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.pdb
-C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Models\obj\Release\RMS.Models.csprojResolveAssemblyReference.cache

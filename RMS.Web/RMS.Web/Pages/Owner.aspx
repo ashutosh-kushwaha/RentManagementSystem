@@ -1,315 +1,162 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/Masterpage.Master" AutoEventWireup="true" CodeBehind="Owner.aspx.cs" Inherits="RMS.Web.Pages.Owner" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
-        Create Property Detail
-    </button>
+    <br />
+    <br />
+    <br />
+    <form id="Form1" runat="server">
+        <%-- <button class="btn btn-primary " data-toggle="modal" data-target="#myPropertyModal">
+            Property
+        </button>--%>
+        <asp:Button ID="btnShowProperty" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Property" UseSubmitBehavior="false" OnClick="ShowProperty_Click" />
+        <%-- </form>--%>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="H1">Property Details</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
+        <%--  <asp:Button ID="Property" runat="server" class="btn btn-Primary" Text="Property" OnclientClick="showmodal()" />--%>
+        <!-- Modal -->
+        <div class="col-md-8" id="myPropertyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="H1">Property Details</h4>
+                    </div>
+                    <div class="modal-body">
+                        <%--     <form runat="server">--%>
                         <div class="row form-group">
                             <div class="col-md-6">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+
+                                <label for="inputEmail">Location</label>
+                                <asp:TextBox ID="txtLocation" class="form-control" placeholder="Location" required="" runat="server"></asp:TextBox>
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="Email1" placeholder="Email">
+                                <label for="inputEmail">Area</label>
+                                <asp:TextBox ID="txtArea" class="form-control" placeholder="Area" required="" runat="server"></asp:TextBox>
+
                             </div>
                         </div>
-                         <div class="row form-group">
+                        <div class="row form-group">
                             <div class="col-md-6">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="Email2" placeholder="Email">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="Email3" placeholder="Email">
-                            </div>
-                        </div>
-                          <div class="row form-group">
-                            <div class="col-md-6">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="Email4" placeholder="Email">
+                                <label for="inputEmail">Building Name</label>
+                                <asp:TextBox ID="txtBuildingName" class="form-control" placeholder="Building Name" required="" runat="server"></asp:TextBox>
+
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail">Email</label>
-                                <input type="email" class="form-control" id="Email5" placeholder="Email">
+                                <label for="inputEmail">FlatNo.</label>
+                                <asp:TextBox ID="txtFlatNo" class="form-control" placeholder="FlatNo" required="" runat="server"></asp:TextBox>
+
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
-                    </form>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="inputEmail">PinNo</label>
+                                <asp:TextBox ID="txtPinNo" class="form-control" placeholder="PinNo" required="" runat="server"></asp:TextBox>
 
-                    <%--  <form class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Ownername">Location:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 62px;'>
-                                            <input type="text" id="Text2" placeholder=" Location">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Personid">Area:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 92px;'>
-                                            <input type="text" id="Text3" placeholder="Area">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Property_id">Building_Name:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 10px;'>
-                                            <input type="text" id="Text4" placeholder="Building_Name">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Createdby">Flat_No:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 68px;'>
-                                            <input type="text" id="Text5" placeholder="Flat_No">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                            </div>
 
                         </div>
 
+                        <%--  </form>--%>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                        <asp:Button class="btn btn-primary" ID="SaveProperty" runat="server" Text="Save changes" CausesValidation="False" OnClick="SaveProperty_Click" UseSubmitBehavior="false" data-dismiss="modal"></asp:Button>
 
 
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Createddate">PinNo:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 80px;'>
-                                            <input type="text" id="Text6" placeholder="PinNo">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>--%>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+
+        </div>
 
 
+
+        <button class="btn btn-primary " data-toggle="modal" data-target="#myOwnerModal">
+            Owner</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myOwnerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Owner</h4>
+                    </div>
+                    <div class="modal-body">
+
+                        <%--<form runat ="server">--%>
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="inputEmail">First Name</label>
+                                <asp:TextBox ID="txtFirstName" class="form-control" placeholder="FirstName" required="" runat="server"></asp:TextBox>
+                                <%-- <input type="text" class="form-control" id="Text2" placeholder="First Name">  --%>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail">LastName</label>
+                                <asp:TextBox ID="txtLastName" class="form-control" placeholder="LastName" required="" runat="server"></asp:TextBox>
+                                <%--  <input type="text" class="form-control" id="Email5" placeholder="Last Name">--%>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="inputEmail">Address1</label>
+                                <asp:TextBox ID="txtAddress1" class="form-control" placeholder="Address1" required="" runat="server"></asp:TextBox>
+                                <%--  <input type="text" class="form-control" id="Text1" placeholder="Address1">--%>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail">Address2</label>
+                                <asp:TextBox ID="txtAddress2" class="form-control" placeholder="Address2" required="" runat="server"></asp:TextBox>
+                                <%--  <input type="text" class="form-control" id="Email6" placeholder="Address2">--%>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="inputEmail">PinNo</label>
+                                <asp:TextBox ID="txtOwnerPinNo" class="form-control" placeholder="PinNo" required="" runat="server"></asp:TextBox>
+                                <%--<input type="text" class="form-control" id="Text3" placeholder="Pin No.">--%>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail">MobNo</label>
+                                <asp:TextBox ID="txtMobNo" class="form-control" placeholder="MobNo" required="" runat="server"></asp:TextBox>
+                                <%--   <input type="text" class="form-control" id="Email7" placeholder="Mob No.">--%>
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-6">
+                                <label for="inputEmail">PhNo</label>
+                                <asp:TextBox ID="txtPhNo" class="form-control" placeholder="PhNo" required="" runat="server"></asp:TextBox>
+                                <%--    <input type="text" class="form-control" id="Text4" placeholder="Ph No.">--%>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail">Email</label>
+                                <asp:TextBox ID="txtEmail" class="form-control" placeholder="Email" required="" runat="server"></asp:TextBox>
+                                <%--     <input type="text" class="form-control" id="Email8" placeholder="E-mail">--%>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
                 </div>
             </div>
         </div>
-
-    </div>
     </form>
+    <script type="text/javascript">
 
-    <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-        Create Owner Detail
-    </button>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Owner Details</h4>
-                </div>
-                <div class="modal-body">
+        function ShowModal() {
+            $("#btnShowProperty").show();
 
 
 
 
+        }
 
-                    <form class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Ownername">FirstName:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 62px;'>
-                                            <input type="text" id="Owner" placeholder="FirstName">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Personid">LastName:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 64px;'>
-                                            <input type="text" id="Personid" placeholder="LastName">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Property_id">Address1:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 68px;'>
-                                            <input type="text" id="Propertyid" placeholder="Address1">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Createdby">Address2:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 68px;'>
-                                            <input type="text" id="Createdby" placeholder="Address2">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-
-                        </div>
-
-
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Createddate">PinNo:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 94px;'>
-                                            <input type="text" id="Createddate" placeholder="PinNo">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Modifiedby">Mob.No:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 82px;'>
-                                            <input type="text" id="Modifiedby" placeholder="Mob.No">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Modifieddate">Ph.No:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 94px;'>
-                                            <input type="text" id="Modifieddate" placeholder="Ph.No">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-
-                        </div>
-
-
-
-                        <div class="form-group">
-                            <table>
-                                <tr>
-                                    <td>
-                                        <label for="Modifieddate">E-mail:</label>
-                                    </td>
-                                    <td>
-                                        <div style='padding-left: 92px;'>
-                                            <input type="text" id="Text1" placeholder="E-mail">
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-
-                        </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </form>
-
-
-     
+    </script>
 </asp:Content>
+
