@@ -31,22 +31,22 @@ namespace RMS.Web.Pages {
         protected global::System.Web.UI.WebControls.Button btnShowProperty;
         
         /// <summary>
-        /// txtLocation control.
+        /// drpdwnLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLocation;
+        protected global::System.Web.UI.WebControls.DropDownList drpdwnLocation;
         
         /// <summary>
-        /// txtArea control.
+        /// DrpdwnArea control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtArea;
+        protected global::System.Web.UI.WebControls.DropDownList DrpdwnArea;
         
         /// <summary>
         /// txtBuildingName control.

@@ -25,12 +25,21 @@
                         <div class="row form-group">
                             <div class="col-md-6">
 
-                                <label for="inputEmail">Location</label>
-                                <asp:TextBox ID="txtLocation" class="form-control" placeholder="Location" required="" runat="server"></asp:TextBox>
+                                <label for="Location">Location</label>
+                                <br />
+                                <br />
+
+                                 <asp:DropDownList ID="drpdwnLocation" runat="server" Height="16px" Width="1100px" OnSelectedIndexChanged="drpdwnLocation_SelectedIndexChanged"  AutoPostBack="true">
+                             </asp:DropDownList>
+                               <%-- <asp:TextBox ID="txtLocation" class="form-control" placeholder="Location" required="" runat="server"></asp:TextBox>--%>
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail">Area</label>
-                                <asp:TextBox ID="txtArea" class="form-control" placeholder="Area" required="" runat="server"></asp:TextBox>
+                                <label for="Area">Area</label>
+                                <br />
+                                <br />
+                                <asp:DropDownList ID="DrpdwnArea" runat="server" Height="16px" Width="1100px" OnSelectedIndexChanged="drpdwnArea_SelectedIndexChanged"  AutoPostBack="true">
+                             </asp:DropDownList>
+                                <%--<asp:TextBox ID="txtArea" class="form-control" placeholder="Area" required="" runat="server"></asp:TextBox>--%>
 
                             </div>
                         </div>
