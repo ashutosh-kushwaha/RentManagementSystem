@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    public class OwnerModel:PersonModel
+    public class LocationModel
     {
-        public int OwnerId { get; set; }
-       
-    
+        public int locationId { get; set; }
+        public string locationName { get; set; }
     }
 }

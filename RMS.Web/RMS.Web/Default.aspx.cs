@@ -19,7 +19,7 @@ namespace RMS.Web
 
         protected void login_Click(object sender, EventArgs e)
         {
-            RMSLogin Loginobj = new RMSLogin();
+            BaoRMSLogin Loginobj = new BaoRMSLogin();
            bool status= Loginobj.ValidateLogin(username.Text, password.Text);
            if (status == true)
                Server.TransferRequest(@"./pages/welcome.aspx   ");

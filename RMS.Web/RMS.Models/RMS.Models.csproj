@@ -39,7 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Areamodel.cs" />
     <Compile Include="BillType.cs" />
+    <Compile Include="LocationModel.cs" />
     <Compile Include="Owner.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

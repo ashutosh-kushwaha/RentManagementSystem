@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace RMS.DataAccess
 {
-    public class LoginDataAdapter
+    public class DaoLoginDataAdapter
     {
         public bool ValidateUser(string username, string password)
         {

@@ -22,3 +22,5 @@ C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.W
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.csprojResolveAssemblyReference.cache
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.dll
 C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\obj\Release\RMS.Web.pdb
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Models.dll
+C:\Users\shilpa.mehendiratta\Documents\GitHub\RentManagementSystem\RMS.Web\RMS.Web\bin\RMS.Models.pdb

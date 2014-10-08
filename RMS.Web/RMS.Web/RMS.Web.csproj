@@ -129,6 +129,10 @@
       <Project>{5ebdb847-d4c0-4e58-9c41-d9207227962f}</Project>
       <Name>RMS.Business</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RMS.Models\RMS.Models.csproj">
+      <Project>{f2aa7924-4ccf-4207-a422-faf2a8e09b03}</Project>
+      <Name>RMS.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

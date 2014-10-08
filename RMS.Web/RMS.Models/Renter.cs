@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    public class Renter : Person
+    public class RenterModel : PersonModel
     {
         public int RenterId { get; set; }
         public string PAP { get; set; }

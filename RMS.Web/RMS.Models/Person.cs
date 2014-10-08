@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Models
 {
-    public class Person
+    public class PersonModel
     {
         public int PersonID { get; set; }
         public string FirstName { get; set; }

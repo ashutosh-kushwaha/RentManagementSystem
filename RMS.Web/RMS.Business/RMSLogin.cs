@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using RMS.DataAccess;
 namespace RMS.Business
 {
-    public class RMSLogin
+    public class BaoRMSLogin
     {
         public Boolean ValidateLogin(string username, string password)
         {
-            LoginDataAdapter loginDA = new LoginDataAdapter();
+            DaoLoginDataAdapter loginDA = new DaoLoginDataAdapter();
            return  loginDA.ValidateUser(username, password); 
         }
     }
