@@ -5,6 +5,7 @@
     <br />
     <br />
     <form id="Form1" runat="server">
+
         <%--  <asp:Button ID="Property" runat="server" class="btn btn-Primary" Text="Property" OnclientClick="showmodal()" />--%>
         <asp:Button ID="btnShowProperty" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Property" UseSubmitBehavior="false" />
         <%--     <form runat="server">--%>        <%-- <asp:TextBox ID="txtLocation" class="form-control" placeholder="Location" required="" runat="server"></asp:TextBox>--%>
@@ -74,13 +75,13 @@
 
         </div>
 
+        <asp:Button ID="Button1" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Owner" UseSubmitBehavior="false" />
 
-
-        <button class="btn btn-primary " data-toggle="modal" data-target="#myOwnerModal">
-            Owner</button>
+<%--        <button class="btn btn-primary " data-toggle="modal" data-target="#myOwnerModal">
+            Owner</button>--%>
 
         <!-- Modal -->
-        <div class="modal fade" id="myOwnerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="col-md-6" id="myOwnerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
