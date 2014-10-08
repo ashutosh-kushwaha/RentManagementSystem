@@ -15,7 +15,7 @@ namespace RMS.Models
         public string Address2 { get; set; }
         public int PinNo { get; set; }
         public int PhoneNo { get; set; }
-        public int MobileNo { get; set; }
+        public Int32 MobileNo { get; set; }
         public string Email { get; set; }
         public int CreatedBy { get; set; }
         public DateTime CreatedDate{ get; set; }

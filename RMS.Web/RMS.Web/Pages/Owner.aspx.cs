@@ -83,6 +83,21 @@ namespace RMS.Web.Pages
 
         }
 
+        protected void SaveOwner_Click(object sender, EventArgs e)
+        {
+            PersonModel newPerson = new PersonModel();
+            newPerson.FirstName = txtFirstName.Text;
+            newPerson.lastName = txtFirstName.Text;
+            newPerson.Address1 = txtFirstName.Text;
+            newPerson.Address2 = txtAddress2.Text;
+            newPerson.PinNo = Int32.Parse(txtPinNo.Text);
+            newPerson.MobileNo = Int32.Parse(txtMobNo.Text);
+            newPerson.PhoneNo = Int32.Parse(txtPhNo.Text);
+            newPerson.Email = txtEmail.Text;
+
+
+        }
+
 
 
     }

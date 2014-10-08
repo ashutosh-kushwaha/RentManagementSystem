@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DaoOwner.cs" />
     <Compile Include="DaoProperty.cs" />
     <Compile Include="LoginDataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
