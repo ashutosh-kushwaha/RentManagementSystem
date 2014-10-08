@@ -75,7 +75,7 @@
 
         </div>
 
-        <asp:Button ID="Button1" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Owner" UseSubmitBehavior="false" />
+        <asp:Button ID="Button1" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Owner" UseSubmitBehavior="false" OnClick="Button1_Click" />
 
 <%--        <button class="btn btn-primary " data-toggle="modal" data-target="#myOwnerModal">
             Owner</button>--%>
@@ -146,7 +146,8 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                           <asp:Button class="btn btn-primary" ID="Button2" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal" OnClick="SaveOwner_Click"></asp:Button>
+<%--                        <button type="button" class="btn btn-primary">Save changes</button>--%>
                     </div>
                 </div>
             </div>
