@@ -84,6 +84,7 @@ namespace RMS.DataAccess
             }
             catch (Exception ex)
             {
+                
                 con.Close();
                 throw;
             }

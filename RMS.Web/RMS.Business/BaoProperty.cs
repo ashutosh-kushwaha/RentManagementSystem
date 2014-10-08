@@ -20,11 +20,11 @@ namespace RMS.Business
             DaoProperty daProperty = new DaoProperty();
             return daProperty.GetArea(locationId);
         }
-        public bool InsertProperty(PropertyModel newProperty)
+        public void InsertProperty(PropertyModel newProperty)
         {
-          
-            return InsertProperty(newProperty);
-        }
+            DaoProperty daProperty = new DaoProperty();
+            daProperty.InsertProperty(newProperty);
 
+        }
     }
 }

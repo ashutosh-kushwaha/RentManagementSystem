@@ -58,6 +58,7 @@ namespace RMS.Web.Pages
 
         protected void SaveProperty_Click(object sender, EventArgs e)
         {
+
             PropertyModel newproperty = new PropertyModel();
             if(drpDwnArea.SelectedValue!="Select")
             {
@@ -65,7 +66,14 @@ namespace RMS.Web.Pages
             newproperty.BuildingName=txtBuildingName.Text;
             newproperty.FlatNo = Int32.Parse(txtFlatNo.Text);
             newproperty.PinNo = Int32.Parse(txtPinNo.Text);
+
+            BaoProperty baProperty = new BaoProperty();
+            baProperty.InsertProperty(newproperty);
             }
+
+            
+            
+            
           
        
      }
