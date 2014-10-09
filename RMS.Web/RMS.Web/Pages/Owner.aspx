@@ -5,11 +5,14 @@
     <br />
     <br />
     <form id="Form1" runat="server">
-
-        <%--  <asp:Button ID="Property" runat="server" class="btn btn-Primary" Text="Property" OnclientClick="showmodal()" />--%>
+   <%--  <asp:Button ID="Property" runat="server" class="btn btn-Primary" Text="Property" OnclientClick="showmodal()" />--%>
         <asp:Button ID="btnShowProperty" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Property" UseSubmitBehavior="false" />
         <%--     <form runat="server">--%>        <%-- <asp:TextBox ID="txtLocation" class="form-control" placeholder="Location" required="" runat="server"></asp:TextBox>--%>
-        <!-- Modal -->
+   
+    
+      
+          <!-- Modal -->
+        
         <div class="col-md-8" id="myPropertyModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div >
                 <div class="modal-content">
@@ -42,12 +45,12 @@
                         </div>
                         <div class="row form-group">
                             <div class="col-md-6">
-                                <label for="inputEmail">Building Name</label>
-                                <asp:TextBox ID="txtBuildingName" class="form-control" placeholder="Building Name" required="" runat="server"></asp:TextBox>
+                                <label for="inputEmail">BuildingName</label>
+                                <asp:TextBox ID="txtBuildingName" class="form-control" placeholder="BuildingName" required="" runat="server"></asp:TextBox>
 
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail">FlatNo.</label>
+                                <label for="inputEmail">FlatNo</label>
                                 <asp:TextBox ID="txtFlatNo" class="form-control" placeholder="FlatNo" required="" runat="server"></asp:TextBox>
 
                             </div>
@@ -66,7 +69,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 
-                        <asp:Button class="btn btn-primary" ID="SaveProperty" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal" OnClick="SaveProperty_Click"></asp:Button>
+                        <asp:Button class="btn btn-primary" ID="Button2" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal" OnClick="SaveProperty_Click"></asp:Button>
 
 
                     </div>
@@ -75,12 +78,22 @@
 
         </div>
 
-        <asp:Button ID="Button1" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Owner" UseSubmitBehavior="false" OnClick="Button1_Click" />
+        <asp:Button ID="Button3" OnClientClick="ShowModal()" runat="server" class="btn btn-Primary" Text="Owner" UseSubmitBehavior="false" OnClick="Button1_Click" />
 
+      
+      
+      
+      
+        
+                            
+
+
+    
+
+        
 <%--        <button class="btn btn-primary " data-toggle="modal" data-target="#myOwnerModal">
             Owner</button>--%>
-
-        <!-- Modal -->
+      <!-- Modal -->
         <div class="col-md-6" id="myOwnerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -98,7 +111,7 @@
                                 <%--  <input type="text" class="form-control" id="Text1" placeholder="Address1">--%>
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail">LastName</label>
+                                <label for="inputEmail">Last Name</label>
                                 <asp:TextBox ID="txtLastName" class="form-control" placeholder="LastName" required="" runat="server"></asp:TextBox>
                                 <%--  <input type="text" class="form-control" id="Email6" placeholder="Address2">--%>
                             </div>
@@ -125,7 +138,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label for="inputEmail">MobNo</label>
-                                <asp:TextBox ID="txtMobNo" class="form-control" placeholder="MobNo" required="" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="txtOwnerMobNo" class="form-control" placeholder="MobNo" required="" runat="server"></asp:TextBox>
                                 <%--     <input type="text" class="form-control" id="Email8" placeholder="E-mail">--%>
                             </div>
                         </div>
@@ -133,12 +146,12 @@
                         <div class="row form-group">
                             <div class="col-md-6">
                                 <label for="inputEmail">PhNo</label>
-                                <asp:TextBox ID="txtPhNo" class="form-control" placeholder="PhNo" required="" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="txtOwnerPhNo" class="form-control" placeholder="PhNo" required="" runat="server"></asp:TextBox>
                                 <%--     <input type="text" class="form-control" id="Email8" placeholder="E-mail">--%>
                             </div>
                             <div class="col-md-6">
                                 <label for="inputEmail">Email</label>
-                                <asp:TextBox ID="txtEmail" class="form-control" placeholder="Email" required="" runat="server"></asp:TextBox>
+                                <asp:TextBox ID="txtOwnerEmail" class="form-control" placeholder="Email" required="" runat="server"></asp:TextBox>
                                 <%--     <input type="text" class="form-control" id="Email8" placeholder="E-mail">--%>
                             </div>
                         </div>
@@ -146,7 +159,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                           <asp:Button class="btn btn-primary" ID="SaveOwner" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal" OnClick="Button2_Click"></asp:Button>
+                           <asp:Button class="btn btn-primary" ID="SaveOwner" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal" OnClick="SaveOwner_Click"></asp:Button>
 <%--                        <button type="button" class="btn btn-primary">Save changes</button>--%>
                     </div>
                 </div>
@@ -155,7 +168,7 @@
     </form>
     <script type="text/javascript">
 
-
+   
         function ShowModal() {
             $("#btnShowProperty").show();
 
@@ -164,6 +177,6 @@
 
         }
 
-    </script>
+ </script>
 </asp:Content>
 

@@ -23,6 +23,7 @@ namespace RMS.Business
         public void InsertProperty(PropertyModel newProperty)
         {
             DaoProperty daProperty = new DaoProperty();
+            newProperty.CreatedDate = System.DateTime.Now;
             daProperty.InsertProperty(newProperty);
 
         }

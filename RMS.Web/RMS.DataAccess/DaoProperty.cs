@@ -43,7 +43,7 @@ namespace RMS.DataAccess
             }
             catch (Exception ex)
             {
-               // con.Close();
+                con.Close();
                 throw;
             }
             finally
@@ -102,7 +102,7 @@ namespace RMS.DataAccess
             try
             {
                 con = new SqlConnection("server=.;database=RMS;integrated security=true");
-                SqlCommand com = new SqlCommand("insert into RMS_Property (Areaid,BUILDING_NAME,FLAT_NO,PIN_NO) values ('" + newProperty.AreaId + "','" + newProperty.BuildingName + "','" + newProperty.FlatNo + "','" + newProperty.PinNo + "')", con);
+                SqlCommand com = new SqlCommand("insert into RMS_PROPERTY (Areaid,BUILDING_NAME,FLAT_NO,PIN_NO,CREATED_BY,CREATED_DATE) values ('" + newProperty.AreaId + "','" + newProperty.BuildingName + "','" + newProperty.FlatNo + "','" + newProperty.PinNo + "','"+newProperty.CreatedBy+"','"+newProperty.CreatedDate+"')", con);
 
                 con.Open();
                 int count = com.ExecuteNonQuery();

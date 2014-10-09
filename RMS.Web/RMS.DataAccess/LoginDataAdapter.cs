@@ -1,42 +1,47 @@
 ﻿using System;
+using System.Web;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-
+using RMS.Models;
 
 namespace RMS.DataAccess
 {
     public class DaoLoginDataAdapter
     {
-        public bool ValidateUser(string username, string password)
+        public LoginModel ValidateUser(string username, string password)
         {
-            SqlConnection con = null ;
+            SqlConnection con = null;
             try
             {
 
                 con = new SqlConnection("server=.;database=RMS;integrated security=true");
-                SqlCommand com = new SqlCommand("select USER_NAME,PASSWORD from  RMS_USER where USER_NAME ='"+username+"' and PASSWORD = '"+password+"'",con);
+                SqlCommand com = new SqlCommand("select USER_ID from  RMS_USER where USER_NAME ='" + username + "' and PASSWORD = '" + password + "'", con);
                 con.Open();
-               SqlDataReader dr=com.ExecuteReader();
+                SqlDataReader dr = com.ExecuteReader();
 
-               if (dr.HasRows)
+                if (dr.HasRows)
                 {
+                    LoginModel newLogin = new LoginModel();
+                    dr.Read();
+                    newLogin.UserId = dr.GetInt32(0);
+                    newLogin.UserName = username;
 
-                    return true;
+                    return newLogin;
 
                 }
                 else
                 {
-                    return false;
+                    return null;
                 }
 
             }
             catch (Exception ex)
             {
-                return false;
+                return null;
             }
 
             finally

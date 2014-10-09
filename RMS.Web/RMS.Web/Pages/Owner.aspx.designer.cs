@@ -76,22 +76,22 @@ namespace RMS.Web.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtPinNo;
         
         /// <summary>
-        /// SaveProperty control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button SaveProperty;
+        protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
-        /// Button1 control.
+        /// Button3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button Button3;
         
         /// <summary>
         /// txtFirstName control.
@@ -139,31 +139,31 @@ namespace RMS.Web.Pages {
         protected global::System.Web.UI.WebControls.TextBox txtOwnerPinNo;
         
         /// <summary>
-        /// txtMobNo control.
+        /// txtOwnerMobNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMobNo;
+        protected global::System.Web.UI.WebControls.TextBox txtOwnerMobNo;
         
         /// <summary>
-        /// txtPhNo control.
+        /// txtOwnerPhNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPhNo;
+        protected global::System.Web.UI.WebControls.TextBox txtOwnerPhNo;
         
         /// <summary>
-        /// txtEmail control.
+        /// txtOwnerEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtOwnerEmail;
         
         /// <summary>
         /// SaveOwner control.

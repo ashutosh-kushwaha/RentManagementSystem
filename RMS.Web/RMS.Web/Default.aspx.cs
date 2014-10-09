@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using RMS.Business;
+using RMS.Models;
 
 
 namespace RMS.Web
@@ -14,21 +15,26 @@ namespace RMS.Web
         protected void Page_Load(object sender, EventArgs e)
         {
 
-          
+
         }
 
         protected void login_Click(object sender, EventArgs e)
         {
-            BaoRMSLogin Loginobj = new BaoRMSLogin();
-           bool status= Loginobj.ValidateLogin(username.Text, password.Text);
-           if (status == true)
-               Server.TransferRequest(@"./pages/welcome.aspx   ");
-           else
-               lblLoginMessage.Text = "Login failed, please try again!";
+            BaoRMSLogin LoginObj = new BaoRMSLogin();
+            LoginModel loginUserDetails = LoginObj.ValidateLogin(username.Text, password.Text);
+            if (loginUserDetails!=null)
+            {
+                Session["UserDetails"] = loginUserDetails;
+                Server.TransferRequest(@"./pages/welcome.aspx   ");
+
+            }
+
+            else
+                lblLoginMessage.Text = "Login failed, please try again!";
 
         }
 
-        
+
 
         protected void Reset_Click(object sender, EventArgs e)
         {
@@ -40,6 +46,6 @@ namespace RMS.Web
 
         }
 
-       
+
     }
 }

@@ -19,7 +19,7 @@ namespace RMS.DataAccess
             try
             {
                 con = new SqlConnection("server=.;database=RMS;integrated security=true");
-                SqlCommand com = new SqlCommand("insert into RMS_Person (FIRSTNAME,LASTNAME,ADDRESS1,ADDRESS2,PIN_NO,PH_NO,MOBILE_NO,EMAIL) values ('" + newPerson.FirstName + "','" + newPerson.lastName + "','" + newPerson.Address1 + "','" + newPerson.Address2+ "','" + newPerson.PinNo+ "','" + newPerson.MobileNo+ "','" + newPerson.PinNo+"','" + newPerson.PhoneNo+ "','" + newPerson.Email+ "')", con);
+                SqlCommand com = new SqlCommand("insert into RMS_Person (FIRSTNAME,LASTNAME,ADDRESS1,ADDRESS2,PIN_NO,PH_NO,MOBILE_NO,EMAIL) values ('" + newPerson.FirstName + "','" + newPerson.lastName + "','" + newPerson.Address1 + "','" + newPerson.Address2 + "','" + newPerson.PinNo + "','" + newPerson.PhoneNo + "','" + newPerson.MobileNo + "','" + newPerson.Email + "')", con);
 
                 con.Open();
                 int count = com.ExecuteNonQuery();
