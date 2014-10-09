@@ -94,6 +94,8 @@ namespace RMS.Web.Pages
             newPerson.MobileNo = Int32.Parse(txtMobNo.Text);
             newPerson.PhoneNo = Int32.Parse(txtPhNo.Text);
             newPerson.Email = txtEmail.Text;
+            BaoOwner baOwner = new BaoOwner();
+            baOwner.InsertOwner(newPerson);
 
 
         }
