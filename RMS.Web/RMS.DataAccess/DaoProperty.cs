@@ -43,7 +43,7 @@ namespace RMS.DataAccess
             }
             catch (Exception ex)
             {
-                con.Close();
+               // con.Close();
                 throw;
             }
             finally
@@ -59,7 +59,7 @@ namespace RMS.DataAccess
             try
             {
                 con = new SqlConnection("server=.;database=RMS;integrated security=true");
-                SqlCommand com = new SqlCommand("select AreaId,AreaName from  RMS_Area where Lid='"+locationId+"'", con);
+                SqlCommand com = new SqlCommand("select AreaId,AreaName from  RMS_Area where Lid='" + locationId + "'", con);
                 con.Open();
                 SqlDataReader dr = com.ExecuteReader();
 
@@ -84,7 +84,7 @@ namespace RMS.DataAccess
             }
             catch (Exception ex)
             {
-                
+
                 con.Close();
                 throw;
             }
@@ -96,7 +96,7 @@ namespace RMS.DataAccess
         }
         public bool InsertProperty(PropertyModel newProperty)
         {
-          
+
 
             SqlConnection con = null;
             try
@@ -106,7 +106,7 @@ namespace RMS.DataAccess
 
                 con.Open();
                 int count = com.ExecuteNonQuery();
-                if (count>0)
+                if (count > 0)
                 {
                     return true;
                 }
@@ -124,9 +124,10 @@ namespace RMS.DataAccess
             finally
             {
 
-                con.Close();
+                 con.Close();
             }
-
+            
         }
     }
 }
+            

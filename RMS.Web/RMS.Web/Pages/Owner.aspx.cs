@@ -15,8 +15,8 @@ namespace RMS.Web.Pages
             if (!IsPostBack)
             {
 
-                drpDwnLocation.Items.Add("select");
-                drpDwnArea.Items.Add("select");
+                //drpDwnLocation.Items.Add("select");
+                //drpDwnArea.Items.Add("select");
                 GetLocations();
 
             }
@@ -54,21 +54,21 @@ namespace RMS.Web.Pages
         }
 
 
-        public int locationId { get; set; }
+       
 
         protected void SaveProperty_Click(object sender, EventArgs e)
         {
 
             PropertyModel newproperty = new PropertyModel();
-            if(drpDwnArea.SelectedValue!="Select")
+            if (drpDwnArea.SelectedValue != "Select")
             {
-            newproperty.AreaId = Int32.Parse(drpDwnArea.SelectedValue);
-            newproperty.BuildingName=txtBuildingName.Text;
-            newproperty.FlatNo = Int32.Parse(txtFlatNo.Text);
-            newproperty.PinNo = Int32.Parse(txtPinNo.Text);
+                newproperty.AreaId = Int32.Parse(drpDwnArea.SelectedValue);
+                newproperty.BuildingName = txtBuildingName.Text;
+                newproperty.FlatNo = Int32.Parse(txtFlatNo.Text);
+                newproperty.PinNo = Int64.Parse(txtPinNo.Text);
 
-            BaoProperty baProperty = new BaoProperty();
-            baProperty.InsertProperty(newproperty);
+                BaoProperty baProperty = new BaoProperty();
+                baProperty.InsertProperty(newproperty);
             }
 
             
@@ -80,27 +80,43 @@ namespace RMS.Web.Pages
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+         
         }
 
         protected void SaveOwner_Click(object sender, EventArgs e)
         {
-            PersonModel newPerson = new PersonModel();
-            newPerson.FirstName = txtFirstName.Text;
-            newPerson.lastName = txtFirstName.Text;
-            newPerson.Address1 = txtFirstName.Text;
-            newPerson.Address2 = txtAddress2.Text;
-            newPerson.PinNo = Int32.Parse(txtPinNo.Text);
-            newPerson.MobileNo = Int32.Parse(txtMobNo.Text);
-            newPerson.PhoneNo = Int32.Parse(txtPhNo.Text);
-            newPerson.Email = txtEmail.Text;
-            BaoOwner baOwner = new BaoOwner();
-            baOwner.InsertOwner(newPerson);
+            //PersonModel newPerson = new PersonModel();
+            //newPerson.FirstName = txtFirstName.Text;
+            //newPerson.lastName = txtLastName.Text;
+            //newPerson.Address1 = txtAddress1.Text;
+            //newPerson.Address2 = txtAddress2.Text;
+            //newPerson.PinNo = Int32.Parse(txtPinNo.Text);
+            //newPerson.MobileNo = Int32.Parse(txtMobNo.Text);
+            //newPerson.PhoneNo = Int32.Parse(txtPhNo.Text);
+            //newPerson.Email = txtEmail.Text;
+            //BaoOwner baOwner = new BaoOwner();
+            //baOwner.InsertOwner(newPerson);
 
 
         }
 
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            PersonModel newPerson = new PersonModel();
+            newPerson.FirstName = txtFirstName.Text;
+            newPerson.lastName = txtLastName.Text;
+            newPerson.Address1 = txtAddress1.Text;
+            newPerson.Address2 = txtAddress2.Text;
+            newPerson.PinNo = Int64.Parse(txtPinNo.Text);
+           newPerson.PhoneNo = Int32.Parse(txtPhNo.Text);
+            newPerson.MobileNo = Int32.Parse(txtMobNo.Text);
+            newPerson.Email = txtEmail.Text;
+            BaoOwner baOwner = new BaoOwner();
+            baOwner.InsertOwner(newPerson);
 
+        }
+
+       
 
     }
 }

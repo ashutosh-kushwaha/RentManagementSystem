@@ -146,7 +146,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                           <asp:Button class="btn btn-primary" ID="Button2" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal"></asp:Button>
+                           <asp:Button class="btn btn-primary" ID="SaveOwner" runat="server" Text="Save changes" CausesValidation="False"  UseSubmitBehavior="false" data-dismiss="modal" OnClick="Button2_Click"></asp:Button>
 <%--                        <button type="button" class="btn btn-primary">Save changes</button>--%>
                     </div>
                 </div>

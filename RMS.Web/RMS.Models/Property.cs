@@ -12,7 +12,7 @@ namespace RMS.Models
         public int  AreaId { get; set; }
         public string BuildingName { get; set; }
         public int FlatNo { get; set; }
-        public Int32 PinNo { get; set; }
+        public Int64 PinNo { get; set; }
         public int CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
         public int ModifiedDate { get; set; }
